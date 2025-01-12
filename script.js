@@ -1,0 +1,1 @@
+ console.log("Hi Vinay Java script is connected to HTML success");
