@@ -2,7 +2,7 @@
 *{
     margin:0px;
     box-sizing: border-box;
-    border:0px solid black;
+    border:1px solid black;
 }
 /**************************************
     Adding Custom Fonts Block Starts
@@ -155,6 +155,7 @@
 }
 .ourVision-heading-container{
     font-family: 'GoodBrush';
+    font-size: 30px;
 }
 .ourVision-parah-container{
     font-family: 'Times New Roman';
@@ -223,3 +224,33 @@
 /******************************************
     Footer Section Conatainer Block Ends
 *******************************************/
+
+
+@media screen and (max-width:810px)
+{
+    .ourVision-container{
+        flex-wrap: wrap;
+        width:350px;
+    }
+    .ourVision-heading-container{
+        font-size: 20px;
+    }
+    .ourVision-parah-container{
+        font-size: 15px;
+    }
+    .ourVision-image-container{
+        height:350px;
+        width:350px;
+        border-radius:20px;
+    }
+    .aboutUs-container{
+        width:400px;
+    }
+    .aboutUs-heading-container{
+        font-size: 25px;
+    }
+    .aboutUs-parah-container{
+        font-size: 15px;
+    }
+}
+
