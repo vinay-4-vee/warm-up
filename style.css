@@ -23,11 +23,26 @@
 /**************************************
     Adding Custom Fonts Block Ends
 ***************************************/  
+.nav-bar-hamburger-symbol{
+    color:#ffffff;
+    position: absolute;
+    left: 0;
+    margin-left:20px;
+    visibility: hidden;
+}
+.nav-bar-Xmark-symbol{
+    color:#ffffff;
+    position: absolute;
+    left: 0;
+    margin-left:20px;
+    visibility: hidden;
+}
 .nav-bar-list-container{
     list-style-type: none;
     color:white;
     display: flex;
     flex-direction: row;
+
 }
 .nav-bar-container{
     background-color: rgb(0, 118, 208);
@@ -37,8 +52,8 @@
     align-items: center;
     box-shadow: 0 10px 6px rgba(2, 2, 2, 0.1);
     width:100%;
-
 }
+
 .nav-bar-li-container{
     padding:20px;
     font-family:"Times New Roman";
@@ -52,6 +67,7 @@
     font-family: "Yatra One", serif;
     color:white;
 }
+
 
 /**************************************
     bg-container Conatainer Block
@@ -251,6 +267,16 @@
     }
     .aboutUs-parah-container{
         font-size: 15px;
+    }
+    .nav-bar-list-container{
+        display: none;
+    
+    }
+    .nav-bar-item-hamburger-visibility{
+        visibility: visible;
+    }
+    .nav-bar-item-xmark-visibility{
+        visibility: visible;
     }
 }
 
